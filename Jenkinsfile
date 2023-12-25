@@ -4,6 +4,7 @@ pipeline {
     stages {
         stage('Run script') {
             steps {
+                sh 'chmod +x ./task.sh'
                 sh './task.sh'
             }
         }
