@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Run script') {
             steps {
-                sh './list_files.sh'
+                sh './task.sh'
             }
         }
     }
